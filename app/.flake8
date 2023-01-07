@@ -1,0 +1,10 @@
+
+[flake8]
+exclude = 
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py
+
+# we just want to exclude them because we didn't create those files, they were created from a template
+#and we only want to add the lensing to the code that we create in the project.
